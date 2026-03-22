@@ -6,10 +6,15 @@ AI-powered VS Code extension for code optimization, explanation, and test genera
 
 Warp 是一款基于 Claude API 的 VS Code 智能编程助手。
 
+## 核心亮点
+
+**专为 Coding 小白设计** — 不懂开发也能写出专业级代码。Warp 将你的自然语言描述自动转换为优化后的专业提示词，让 AI 精准理解你的需求，生成高质量代码。
+
 ## 主要功能
 
+- **智能提示词优化** — 自动将你的大白话转换为专业级 Prompt，让 AI 更懂你的需求
 - **代码优化** — AI 驱动的代码重构与性能提升
-- **代码解释** — 深度解析代码逻辑与设计意图
+- **代码解释** — 深度解析代码逻辑与设计意图，用通俗语言讲清楚
 - **测试生成** — 自动生成单元测试代码
 - **多模型支持** — 支持 Claude Sonnet、Opus、Haiku
 
