@@ -1,0 +1,47 @@
+{
+  "name": "coding-master",
+  "displayName": "Coding Master",
+  "description": "AI 编程助手 - 使用 Claude API 优化、解释和测试代码",
+  "version": "1.0.0",
+  "publisher": "coding-master",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codingMaster.openPanel",
+        "title": "打开 Coding Master 面板"
+      },
+      {
+        "command": "codingMaster.setApiKey",
+        "title": "设置 API Key"
+      },
+      {
+        "command": "codingMaster.switchModel",
+        "title": "切换 AI 模型"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.75.0",
+    "typescript": "^5.0.0"
+  }
+}
